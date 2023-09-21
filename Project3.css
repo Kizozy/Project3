@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.wrapper{
+    width: 1075;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+a:hover{
+    color: gold;
+}
+/* Head Start */
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsofFgTBpDyPsLWS--3QyP6qgwt72xqUp7jw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}  
+.icon{
+    margin-right: 150px;
+    color: blue;
+    justify-content: space-between;
+
+}
+.name h1{
+    font-size: 75px;
+    margin-left: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon ul li{
+   display: inline;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid brown;
+}
+.nav ul li{
+    display: inline;
+    color: red;
+    list-style-type: none;
+
+}
+.n{
+    padding-right: 10px;
+}
+.nav{
+    margin-left: 130px;
+    font-size: 20px;
+}
+/* Head End */
+
+/* body Start*/
+.main-body{
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+.welcome{
+    font-size: 30px;
+}
+.wel, .hm, .sch{
+    color: brown;
+}
+.to, .where{
+    color: whitesmoke;
+}
+select{
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 5px;
+    text-align: center;
+}
+.select{
+    padding: 5px 5px;
+}
+option{
+    color: black;
+}
+.go{
+    border-radius: 30px;
+    height: 30px;
+    padding: 2px 7px;
+    color: brown;
+    font-weight: bold;
+    font-size: 15px;
+}
+.more-info{
+    text-align: center;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.info1{
+    border-right: 2px solid brown;
+}
+.info2{
+    border-right: 2px solid blue;
+}
+.info{
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+}
+.info1, .info3{
+    background-color: brown;
+    color: white;
+}
+.info2{
+    background-color: blue;
+    color: gold;
+}
+.info1, .info2, .info3{
+    padding: 0;
+    margin: 0;
+}
+.btn1, .btn2, .btn3{
+    padding: 10px;
+}
+.btns{
+    border-radius: 30px;
+    padding: 2px 7px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    /* font-weight: bold; */
+}
+/* body End */
+
+/* Footer Start */
+.minis{
+    display: inline-block;
+}
+
+footer{
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: gold;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-radius: 30px 30px 0 0;
+}
+.fa-facebook, .fa-twitter, .fa-whatsapp, .fa-linkedin{
+    color: blue;
+    padding-top: 10px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.a-down{
+    color: white;
+}
+.mini, h1{
+    padding: 20px;
+}
+.chat, .phone, .mail{
+    font-size: 30px;
+    padding-top: 10px;
+    color: gold;
+}
+address{
+    color: black;
+    padding-bottom: 10px;
+}
+.anchorbtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 300px;
+    border: 3px solid blue;
+    background-color: gold;
+    border-radius: 30px;
+}
+/* Footer End */
+
+/* About-Us Start */
+.about-us{
+    font-size: 25px;
+    text-align: center;
+}
+.quote{
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 15px;
+    color: black;
+}
+.para1, .para2{
+    color: brown;
+}
+.welcome-intro{
+    font-size: 30px;
+    color: brown;
+    font-size: 45px;
+    font-family: cursive;
+}
+.nah{
+    font-weight: bold;
+    color: blue;
+}.ceo{
+    color: brown;
+    padding: 30px 0;
+}
+.ceo1{
+    color: black;
+}
+/* About-Us End */
+
+/* Sign In/Up Start */
+.text{
+    padding-top: 20px;
+}
+form{
+    margin-left: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px 20px;
+}
+.w{
+    font-weight: bold;
+    color: brown;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text1, .pass, .sign, .mail3{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 350px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 4px 2px 5px black;
+}
+.sign-name h1{
+    font-size: 55px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tnc{
+    color: black;
+    font-size: 16px;
+}
+.terms{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: italic;
+}
+.termsNcons{
+    padding: 10px 0;
+}
+/* Sign In/Up End */
